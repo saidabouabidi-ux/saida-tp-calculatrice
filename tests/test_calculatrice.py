@@ -1,5 +1,5 @@
 import unittest
-from src.calculatrice import division, puissance, moyenne
+from calculatrice import division, puissance, moyenne
 class TestCalculatrice(unittest.TestCase):
     def test_division_simple(self):
         self.assertEqual(division(10, 2), 5)
